@@ -10,11 +10,52 @@
 - [Database Browser](https://sqlitebrowser.org/dl/)
 - [Windscribe](https://tur.windscribe.com)
 - [Zoom](https://zoom.us/download)
-- [Discord](https://discord.com) 
-- [Office365](https://www.office.com/?auth=2&home=1) 
+- [Discord](https://discord.com)
+- [Office365](https://www.office.com/?auth=2&home=1)
 
 ## Xcode Configuration
-Xcode -> Preferences -> Themes -> High Contrast (Dark)
+- Xcode -> Preferences -> Themes -> High Contrast (Dark)
+
+- Check if **IDETemplateMacros.plist** exists via Terminal
+ ```console
+ open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+ ```
+if exists add below between `<dict> </dict>`
+```console
+<key>FILEHEADER</key>
+<string>
+// Project: ___PROJECTNAME___
+// File: ___FILENAME___
+// Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
+//
+// Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
+//
+</string>
+ ```
+If not exists
+
+ ```console
+ touch ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+ open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+ ```
+Then paste below inside **IDETemplateMacros.plist**
+ ```console
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
+ <key>FILEHEADER</key>
+ <string>
+ // Project: ___PROJECTNAME___
+ // File: ___FILENAME___
+ // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
+ //
+ // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
+ //
+ </string>
+ </dict>
+ </plist>
+```
 
 ## Terminal Installations
  1. [Homebrew](https://brew.sh)
@@ -47,11 +88,11 @@ git config --global user.email oguz.yuuksel@gmail.com
  - **`open .`** --- *opens current directory on finder*
 	 - **`<directoryname>`** --- *opens directoryname in current directory on finder*
 	 - **`<directoryname1>/<directoryname2>`** --- *opens /directoryname1/directoryname2 in current directory on finder.*
-	
+
  - **`clear`** --- *clears terminal.*
- 
+
  - **`pwd`** --- *prints out working directory.*
- 
+
  - **`cd`** --- *changes directory*
 	 - **`<directoryname>`** --- *goes into /directoryname directory*
 	 - **`..`** --- *goes one directory level above.*
