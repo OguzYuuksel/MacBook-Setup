@@ -5,8 +5,8 @@ import SwiftUI
 struct Screen___VARIABLE_screenName___: View {
     
     // MARK: - Screen Settings
-    // private let width = UIScreen.main.bounds.width // 428
-    // private let height = UIScreen.main.bounds.height // 926
+    // private let width = UIScreen.main.bounds.width // 428px-iPhone 12 Pro Max
+    // private let height = UIScreen.main.bounds.height // 926px-iPhone 12 Pro Max
     // private var scaleView: CGFloat { width / 428 } // Screen scales according to width
     
     // MARK: - Properties
