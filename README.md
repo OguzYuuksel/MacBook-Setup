@@ -19,55 +19,54 @@
 - Create custom header
 
   Check if **IDETemplateMacros.plist** exists via Terminal
- ```console
- open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
- ```
-if exists add below between `<dict> </dict>`
-```console
-<key>FILEHEADER</key>
-<string>
-// Project: ___PROJECTNAME___
-// File: ___FILENAME___
-// Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
-//
-// Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
-//
-</string>
- ```
-If not exists
+  ```console
+  open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+  ```
+  if exists add below between `<dict> </dict>`
+  ```console
+  <key>FILEHEADER</key>
+  <string>
+  // Project: ___PROJECTNAME___
+  // File: ___FILENAME___
+  // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
+  //
+  // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
+  //
+  </string>
+  ```
+  If not exists
 
- ```console
- touch ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
- open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
- ```
-Then paste below inside **IDETemplateMacros.plist**
- ```console
- <?xml version="1.0" encoding="UTF-8"?>
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
- <key>FILEHEADER</key>
- <string>
- // Project: ___PROJECTNAME___
- // File: ___FILENAME___
- // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
- //
- // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
- //
- </string>
- </dict>
- </plist>
-```
+  ```console
+  touch ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+  open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+  ```
+  Then paste below inside **IDETemplateMacros.plist**
+  ```console
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+  <key>FILEHEADER</key>
+  <string>
+  // Project: ___PROJECTNAME___
+  // File: ___FILENAME___
+  // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
+  //
+  // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
+  //
+  </string>
+  </dict>
+  </plist>
+  ```
 - Add MVVM file templates to the XCode.
 
   Open terminal and try to reach below directories if any of them doesn't exist then create by using `mkdir` command.
-```console
-cd ~/Library/Developer/Xcode/
-cd Templates
-cd File\ Templates
-```
-After creating File Templates directory copy MVVM directory into your *File Templates*
- **[MVVM Directory](MVVM/)**
+  ```console
+  cd ~/Library/Developer/Xcode/
+  cd Templates
+  cd File\ Templates
+  ```
+  After creating File Templates directory copy MVVM directory into your *File Templates* **[MVVM Directory](MVVM/)**
 
 ## Terminal Installations
  1. [Homebrew](https://brew.sh)
