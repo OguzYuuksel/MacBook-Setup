@@ -16,7 +16,9 @@
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> High Contrast (Dark)
 
-- Check if **IDETemplateMacros.plist** exists via Terminal
+- Create custom header
+
+  Check if **IDETemplateMacros.plist** exists via Terminal
  ```console
  open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
  ```
@@ -56,6 +58,16 @@ Then paste below inside **IDETemplateMacros.plist**
  </dict>
  </plist>
 ```
+- Add MVVM file templates to the XCode.
+
+  Open terminal and try to reach below directories if any of them doesn't exist then create by using `mkdir` command.
+```console
+cd ~/Library/Developer/Xcode/
+cd Templates
+cd File\ Templates
+```
+After creating File Templates directory copy MVVM directory into your *File Templates*
+ **[MVVM Directory](MVVM/)**
 
 ## Terminal Installations
  1. [Homebrew](https://brew.sh)

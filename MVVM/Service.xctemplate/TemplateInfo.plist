@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Identifier</key>
+	<string>com.oguzyuksel.serviceTemplate</string>
+	<key>Description</key>
+	<string>Creates Swift Service Files inside your &lt;Services&gt; Group</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>serviceName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Service Name</string>
+			<key>Description</key>
+			<string>MVVM Services-&gt;Service&lt;Name&gt;</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Networking</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
