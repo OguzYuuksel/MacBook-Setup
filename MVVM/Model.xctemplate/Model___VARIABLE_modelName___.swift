@@ -1,5 +1,4 @@
 //___FILEHEADER___
-
 import Foundation
     
     struct Model___VARIABLE_modelName___ {
@@ -34,7 +33,8 @@ import Foundation
         // MARK: Static Functions
         // static func
         
-        // MARK: Testing Data
-        // static let testData:Model___VARIABLE_modelName___
-        
+        // MARK: Mocks
+        static func mockedModel() -> Model___VARIABLE_modelName___ {
+            
+        }
     }

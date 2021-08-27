@@ -1,5 +1,4 @@
 //___FILEHEADER___
-
 import Foundation
 
 extension Screen___VARIABLE_screenName___ {
@@ -21,11 +20,6 @@ extension Screen___VARIABLE_screenName___ {
         // init() { }
         
         // convenience init() { }
-        
-        // MARK: - Initialization
-        // init(viewModel: ViewModel = ViewModel()) {
-        //     _vM = ObservedObject(wrappedValue: viewModel)
-        // }
         
         // MARK: - Functions
         // private func

@@ -1,5 +1,4 @@
 //___FILEHEADER___
-
 import SwiftUI
 
 struct Screen___VARIABLE_screenName___: View {

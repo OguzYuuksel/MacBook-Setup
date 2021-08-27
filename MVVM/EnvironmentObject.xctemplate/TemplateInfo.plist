@@ -5,24 +5,24 @@
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Identifier</key>
-	<string>com.oguzyuksel.envObjTemplate</string>
+	<string>com.oguzyuksel.pubVMTemplate</string>
 	<key>Description</key>
-	<string>Creates Swift EnvironmentObject Files inside your &lt;EnvObjs&gt; Group</string>
+	<string>Creates Swift EnvironmentObject Files inside your &lt;PublicViewModels&gt; Group</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>envObjName</string>
+			<string>pubVMName</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Environment Object Name</string>
+			<string>Public ViewModel Name</string>
 			<key>Description</key>
-			<string>MVVM Environment Objects-&gt;EnvObj&lt;Name&gt;</string>
+			<string>MVVM Environment Objects-&gt;PubVM&lt;Name&gt;</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Default</key>
-			<string>Products</string>
+			<string>Authentication</string>
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
