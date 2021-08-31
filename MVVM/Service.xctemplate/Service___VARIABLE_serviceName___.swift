@@ -1,34 +1,42 @@
 //___FILEHEADER___
+
 import Foundation
 
-protocol Service___VARIABLE_serviceName___Protocol {
-    
-}
+// MARK: - Protocol
+protocol Service___VARIABLE_serviceName___Protocol { }
 
+extension Service___VARIABLE_serviceName___Protocol { }
+
+extension Mockable where Self: Service___VARIABLE_serviceName___Protocol { }
+
+// MARK: Protocol -
+/// `Service___VARIABLE_serviceName___` bla bla bla
+///
+/// # Usage:
+///     bla bla bla
 struct Service___VARIABLE_serviceName___: Service___VARIABLE_serviceName___Protocol {
     
-    // MARK: - Typealiases
+    // MARK: Typealiases
     
-    // MARK: - Properties
-    // private let
-    // private var
+    // MARK: Properties
     // let
     // var
     // computed var
+    // private let
+    // private var
     
-    // MARK: - Initialization
+    // MARK: Initialization
     // init() { }
     
     // convenience init() { }
     
-    // MARK: - Functions
-    // private func
+    // MARK: Functions
+    // func
     
     // mutating func
     
-    // func
+    // private func
     
-    // MARK: - Static
     // MARK: Static Properties
     // static let
     // static var
@@ -37,9 +45,15 @@ struct Service___VARIABLE_serviceName___: Service___VARIABLE_serviceName___Proto
     // MARK: Static Functions
     // static func
     
-    // MARK: Mocks
-    static func mockedObject() -> Service___VARIABLE_serviceName___Protocol {
-        
-    }
+}
+
+// MARK: - Mocked Service___VARIABLE_serviceName___
+/// `Service___VARIABLE_serviceName___Mock` bla bla bla
+///
+/// # Usage:
+///     bla bla bla
+struct Service___VARIABLE_serviceName___Mock: Service___VARIABLE_serviceName___Protocol, Mockable {
+    
+    // MARK: Properties
     
 }

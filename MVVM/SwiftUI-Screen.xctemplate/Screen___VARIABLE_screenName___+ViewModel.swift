@@ -1,41 +1,44 @@
 //___FILEHEADER___
+
 import Foundation
 
 extension Screen___VARIABLE_screenName___ {
     
     class ViewModel: ObservableObject {
         
-        // MARK: - Typealiases
+        // MARK: Typealiases
         
-        // MARK: - Properties
+        // MARK: Properties
         // @Published var
       
-        // private let
-        // private var
         // let
         // var
         // computed var
+        // private let
+        // private var
         
-        // MARK: - Initialization
+        // MARK: Initialization
         // init() { }
         
         // convenience init() { }
         
-        // MARK: - Functions
-        // private func
-      
-        // mutating func
-      
+        // MARK: Functions
         // func
+        
+        // mutating func
+        
+        // private func
         
         // ////////////////// //
         //   OVERRIDE BELOW   //
         // ////////////////// //
-        // MARK: - Functions
-        // mutating func
-      
+        // MARK: Functions
         // func
         
+        // mutating func
+        
     }
+    
+    // MARK: - Mocked ViewModel
     
 }

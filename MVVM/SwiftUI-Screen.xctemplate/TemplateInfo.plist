@@ -26,6 +26,38 @@
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>previewName1</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>ScreenFile:</string>
+			<key>Description</key>
+			<string>Shows Screen&lt;Name&gt;.</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>Screen___VARIABLE_screenName___.swift</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>previewName2</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>ViewModel File:</string>
+			<key>Description</key>
+			<string>Shows Screen&lt;Name&gt;+ViewModel.</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>Screen___VARIABLE_screenName___+ViewModel.swift</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 </dict>
 </plist>

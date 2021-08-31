@@ -1,30 +1,30 @@
 //___FILEHEADER___
+
 import Foundation
     
     struct Model___VARIABLE_modelName___ {
         
-        // MARK: - Typealiases
+        // MARK: Typealiases
         
-        // MARK: - Properties
-        // private let
-        // private var
+        // MARK: Properties
         // let
         // var
         // computed var
+        // private let
+        // private var
         
-        // MARK: - Initialization
+        // MARK: Initialization
         // init() { }
         
         // convenience init() { }
         
-        // MARK: - Functions
-        // private func
-      
-        // mutating func
-      
+        // MARK: Functions
         // func
         
-        // MARK: - Static
+        // mutating func
+      
+        // private func
+        
         // MARK: Static Properties
         // static let
         // static var
@@ -33,8 +33,4 @@ import Foundation
         // MARK: Static Functions
         // static func
         
-        // MARK: Mocks
-        static func mockedModel() -> Model___VARIABLE_modelName___ {
-            
-        }
     }

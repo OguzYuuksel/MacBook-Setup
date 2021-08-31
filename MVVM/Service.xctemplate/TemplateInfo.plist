@@ -22,7 +22,23 @@
 			<key>Type</key>
 			<string>text</string>
 			<key>Default</key>
-			<string>Networking</string>
+			<string>Network</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>previewName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>File:</string>
+			<key>Description</key>
+			<string>Shows Service&lt;Name&gt;.</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>Service___VARIABLE_serviceName___</string>
 			<key>NotPersisted</key>
 			<true/>
 		</dict>

@@ -26,6 +26,22 @@
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>previewName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>File:</string>
+			<key>Description</key>
+			<string>Shows Model&lt;Name&gt;.</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>Model___VARIABLE_modelName___.swift</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 </dict>
 </plist>

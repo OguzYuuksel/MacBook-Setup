@@ -31,8 +31,7 @@
   // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
   //
   // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
-  //
-  </string>
+  //</string>
   ```
   If not exists
 

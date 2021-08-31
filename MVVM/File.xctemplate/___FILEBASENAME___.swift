@@ -1,30 +1,30 @@
 //___FILEHEADER___
+
 import Foundation
 
 struct ___FILEBASENAME___ {
     
-    // MARK: - Typealiases
+    // MARK: Typealiases
     
-    // MARK: - Properties
-    // private let
-    // private var
+    // MARK: Properties
     // let
     // var
     // computed var
+    // private let
+    // private var
     
-    // MARK: - Initialization
+    // MARK: Initialization
     // init() { }
     
     // convenience init() { }
     
-    // MARK: - Functions
-    // private func
+    // MARK: Functions
+    // func
   
     // mutating func
-  
-    // func
     
-    // MARK: - Static
+    // private func
+    
     // MARK: Static Properties
     // static let
     // static var
