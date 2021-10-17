@@ -71,6 +71,13 @@
  1. [Homebrew](https://brew.sh)
  2. [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/)
  3. [Git](https://git-scm.com/download/mac)
+ 4. Java - Firebase Emulators
+    ```console
+    brew search java
+    brew info java
+    brew install java
+    sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+    ```
 
 ### Terminal Configuration
 ```console
