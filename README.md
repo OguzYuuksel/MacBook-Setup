@@ -69,9 +69,17 @@
 
 ## Terminal Installations
  1. [Homebrew](https://brew.sh)
- 2. [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/)
- 3. [Git](https://git-scm.com/download/mac)
- 4. Java - Firebase Emulators
+    > Open the .zshrc file using command: `nano ~/.zshrc`,
+    >
+    > Now add the following to the file: `export PATH="$PATH:/opt/homebrew/bin/"`
+    >
+    > Save the file by pression Control + X followed by Enter.
+    >
+    > Apply the changes by command: `source ~/.zshrc`
+ 
+ 3. [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/)
+ 4. [Git](https://git-scm.com/download/mac)
+ 5. Java - Firebase Emulators
     ```console
     brew search java
     brew info java
