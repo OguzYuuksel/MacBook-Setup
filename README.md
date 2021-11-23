@@ -12,6 +12,7 @@
 - [Zoom](https://zoom.us/download)
 - [Discord](https://discord.com)
 - [Office365](https://www.office.com/?auth=2&home=1)
+- [Grammarly](https://www.grammarly.com/service/download)
 
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> High Contrast (Dark)
