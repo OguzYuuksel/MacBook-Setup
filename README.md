@@ -5,7 +5,7 @@
 - [Xcode](https://developer.apple.com/xcode/)
 - [Inkspace](https://inkscape.org)
 - [GitKraken](https://www.gitkraken.com)
-- [Atom](https://atom.io) (save in the desktop)
+- [Atom](https://atom.io) (Move to applcations directory in Finder)
 - [Whatsapp Desktop](https://www.whatsapp.com/download)
 - [Database Browser](https://sqlitebrowser.org/dl/)
 - [Windscribe](https://tur.windscribe.com)
@@ -13,7 +13,7 @@
 - [Discord](https://discord.com)
 - [Office365](https://www.office.com/?auth=2&home=1)
 - [Grammarly](https://www.grammarly.com/service/download)
-- [Paintbrush](https://paintbrush.sourceforge.io/downloads/)
+- [Paintbrush](https://paintbrush.sourceforge.io/downloads/) (Move to applcations directory in Finder)
 
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> High Contrast (Dark)
