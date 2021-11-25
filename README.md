@@ -39,7 +39,7 @@
 
   ```console
   touch ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
-  open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+  atom ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
   ```
   Then paste below inside **IDETemplateMacros.plist**
   ```console
