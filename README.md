@@ -15,6 +15,16 @@
 - [Grammarly](https://www.grammarly.com/service/download)
 - [Paintbrush](https://paintbrush.sourceforge.io/downloads/) (Move to applcations directory in Finder)
 
+## System Configuration
+
+### Wallpapaer
+- Download [Wallpaper](Resources/wallpaper.jpg), two finger click and tap on "Set Desktop Picture".
+
+> Wallpaper will not be seen on lock screen because SSD is encrypted
+> and files isn't reachable until user logged in.
+> to see your wallpaper on lock screen, you should disable this feature.
+> System Preferences -> Security & Privacy -> FileVault -> "Turn Off FileVault"
+
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> High Contrast (Dark)
 
@@ -77,7 +87,7 @@
     > Save the file by pression Control + X followed by Enter.
     >
     > Apply the changes by command: `source ~/.zshrc`
- 
+
  3. [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/)
  4. [Git](https://git-scm.com/download/mac)
  5. Java - Firebase Emulators
@@ -103,6 +113,8 @@ git config --global user.email oguz.yuuksel@gmail.com
 
 ### GitHub Configuration
 [GitHub Setup SSH Configuration](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) - [Video](https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24911572#overview)
+
+[Creating a Personal Access Token to reach private libraries via SPM](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ## Useful Commands
 
