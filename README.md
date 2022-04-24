@@ -67,17 +67,17 @@
   # brew install java # For Firebase Emulators
 
   # Configurations
+  ZSHRC=~/.zshrc
+  
   ## Configure Zsh
-  filename=~/.zshrc
-  homebrewConfig="export PATH=\"\$PATH:/opt/homebrew/bin/\""
-  echo $homebrewConfig >> $filename
-  source ~/.zshrc
+  HOMEBREW_CONFIG="export PATH=\"\$PATH:/opt/homebrew/bin/\""
+  echo $HOMEBREW_CONFIG >> $ZSHRC
 
   ## Configure Atom
   ## Atom Editor -> Atom -> Install Shell Commands
-  filename=~/.zshrc
-  atomConfig="export EDITOR=\"atom -w\""
-  echo $atomConfig >> $filename
+  ATOM_CONFIG="export EDITOR=\"atom -w\""
+  echo $ATOM_CONFIG >> $ZSHRC
+  
   source ~/.zshrc
 
   ## Configure Git
