@@ -82,11 +82,6 @@
   git config --global core.editor "atom --wait"
   git config --global user.name "Oguz Yuksel"
   git config --global user.email oguz.yuuksel@gmail.com
-
-  ## Configure Github
-  ### https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys # GitHub Setup SSH Configuration
-  ### https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24911572
-  ### https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token # Creating a Personal Access Token to reach private libraries via SPM
   
   ## Configure Xcode
   ### Custom File Header
@@ -150,6 +145,11 @@
   - [Customize text macros - Xcode Help](https://help.apple.com/xcode/mac/current/#/dev91a7a31fc)
   - [Markup Formatting Reference: Markup Overview](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/)
   - [Punctuation Checker – Free Grammar And Punctuation Check!](https://www.grammarlookup.com)
+
+### GitHub Configuration
+[GitHub Setup SSH Configuration](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) - [Video](https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24911572#overview)
+
+[Creating a Personal Access Token to reach private libraries via SPM](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> Classic (Dark)
