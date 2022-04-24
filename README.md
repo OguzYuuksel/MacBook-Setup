@@ -3,18 +3,93 @@
 
 ## Mac Installations
 - [Xcode](https://developer.apple.com/xcode/)
-- [Inkspace](https://inkscape.org)
-- [GitKraken](https://www.gitkraken.com)
-- [Atom](https://atom.io) (Move to applcations directory in Finder)
-- [Whatsapp Desktop](https://www.whatsapp.com/download)
-- [Database Browser](https://sqlitebrowser.org/dl/)
-- [Windscribe](https://tur.windscribe.com)
-- [Zoom](https://zoom.us/download)
-- [Discord](https://discord.com)
-- [Office365](https://www.office.com/?auth=2&home=1)
-- [Grammarly](https://www.grammarly.com/service/download)
-- [Paintbrush](https://paintbrush.sourceforge.io/downloads/) (Move to applcations directory in Finder)
+- Installation script
+  ```console
+  #!/bin/bash
 
+  # Install Homebrew
+  # https://brew.sh/
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  # Install Atom
+  # https://atom.io/
+  brew install --cask atom
+
+  # Install Git
+  # https://git-scm.com
+  brew install git
+
+  # Install Oh My Zsh
+  # https://github.com/ohmyzsh/ohmyzsh/
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+  # Install WhatsApp
+  # https://www.whatsapp.com/
+  brew install --cask whatsapp
+
+  # Install GitKraken
+  # https://www.gitkraken.com/
+  brew install --cask gitkraken
+
+  # Install DB Browser for SQLite
+  # https://sqlitebrowser.org/
+  brew install --cask db-browser-for-sqlite
+
+  # Install Realm Studio
+  # https://realm.io/products/realm-studio/
+  brew install --cask mongodb-realm-studio
+
+  # Install Windscribe
+  # https://windscribe.com/
+  brew install --cask windscribe
+
+  # Install Zoom
+  # https://www.zoom.us/
+  brew install --cask zoom
+
+  # Install Discord
+  # https://discord.com/
+  brew install --cask discord
+
+  # Install Paintbrush
+  # https://paintbrush.sourceforge.io/
+  brew install --cask paintbrush
+
+  # Install Inkscape
+  # https://inkscape.org/
+  brew install --cask inkscape
+
+  # Install Grammarly Desktop
+  # https://www.grammarly.com/desktop
+  brew install --cask grammarly-desktop
+  
+  # Install Java? Check if it is correct.
+  # brew install java # For Firebase Emulators
+
+  # Configurations
+  ## Configure Zsh
+  filename=~/.zshrc
+  homebrewConfig="export PATH=\"\$PATH:/opt/homebrew/bin/\""
+  echo $homebrewConfig >> $filename
+  source ~/.zshrc
+
+  ## Configure Atom
+  ## Atom Editor -> Atom -> Install Shell Commands
+  filename=~/.zshrc
+  atomConfig="export EDITOR=\"atom -w\""
+  echo $atomConfig >> $filename
+  source ~/.zshrc
+
+  ## Configure Git
+  git config --global core.editor "atom --wait"
+  git config --global user.name "Oguz Yuksel"
+  git config --global user.email oguz.yuuksel@gmail.com
+
+  ## Configure Github
+  ### https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys # GitHub Setup SSH Configuration
+  ### https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24911572
+  ### https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token # Creating a Personal Access Token to reach private libraries via SPM
+  ```
 ## System Configuration
 
 ### Wallpapaer
@@ -26,7 +101,7 @@
 > System Preferences -> Security & Privacy -> FileVault -> "Turn Off FileVault"
 
 ## Xcode Configuration
-- Xcode -> Preferences -> Themes -> High Contrast (Dark)
+- Xcode -> Preferences -> Themes -> Classic (Dark)
 
 - Create custom header
 
@@ -77,44 +152,6 @@
   cd File\ Templates
   ```
   After creating File Templates directory copy MVVM directory into your *File Templates* **[MVVM Directory](MVVM/)**
-
-## Terminal Installations
- 1. [Homebrew](https://brew.sh)
-    > Open the .zshrc file using command: `nano ~/.zshrc`,
-    >
-    > Now add the following to the file: `export PATH="$PATH:/opt/homebrew/bin/"`
-    >
-    > Save the file by pression Control + X followed by Enter.
-    >
-    > Apply the changes by command: `source ~/.zshrc`
-
- 3. [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh/)
- 4. [Git](https://git-scm.com/download/mac)
- 5. Java - Firebase Emulators
-    ```console
-    brew search java
-    brew info java
-    brew install java
-    sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-    ```
-
-### Terminal Configuration
-```console
-open ~/.zshrc
-```
-*add `export EDITOR="atom -w"` to the file and save it. Then Atom Editor -> Atom -> Install Shell Commands*
-
-### Git Configuration
-```console
-git config --global core.editor "atom --wait"
-git config --global user.name "Oguz Yuksel"
-git config --global user.email oguz.yuuksel@gmail.com
-```
-
-### GitHub Configuration
-[GitHub Setup SSH Configuration](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) - [Video](https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24911572#overview)
-
-[Creating a Personal Access Token to reach private libraries via SPM](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ## Useful Commands
 
