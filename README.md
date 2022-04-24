@@ -4,7 +4,7 @@
 ## Mac Installations
 - [Xcode](https://developer.apple.com/xcode/)
 - Installation script
-  ```console
+  ```bash
   #!/bin/bash
 
   # Install Homebrew
