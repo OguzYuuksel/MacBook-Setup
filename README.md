@@ -120,7 +120,14 @@
 > Wallpaper will not be seen on lock screen because SSD is encrypted
 > and files isn't reachable until user logged in.
 > to see your wallpaper on lock screen, you should disable this feature.
+> 
 > System Preferences -> Security & Privacy -> FileVault -> "Turn Off FileVault"
+
+### Trackpad Settings
+> System Preferences -> Trackpad -> Point & Click -> Tracking Speed -> <img width="100" alt="TrackingSpeed" src="https://user-images.githubusercontent.com/74555694/164994242-e25db524-e8a7-435d-a133-11a5b446ea00.png">
+> 
+> System Preferences -> Trackpad -> Scroll & Zoom -> Scroll Direction: Natural -> Active
+
 
 ### Safari Bookmarks
 - UI Design
