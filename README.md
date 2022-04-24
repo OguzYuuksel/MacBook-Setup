@@ -77,8 +77,6 @@
   ## Atom Editor -> Atom -> Install Shell Commands
   ATOM_CONFIG="export EDITOR=\"atom -w\""
   echo $ATOM_CONFIG >> $ZSHRC
-  
-  source ~/.zshrc
 
   ## Configure Git
   git config --global core.editor "atom --wait"
@@ -111,6 +109,8 @@
   //
   // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
   //" $IDE_FILE_TEMPLATE
+  
+  source $ZSHRC
   ```
 ## System Configuration
 
