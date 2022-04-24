@@ -122,6 +122,28 @@
 > to see your wallpaper on lock screen, you should disable this feature.
 > System Preferences -> Security & Privacy -> FileVault -> "Turn Off FileVault"
 
+### Safari Bookmarks
+- UI Design
+  - [Human Interface Guidelines - Design - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/)
+  - [iOS Resolution // Display proerties of every iPhone, iPad and iPod touch Apple ever made](https://www.ios-resolution.com)
+  - [iOS Fonts](http://iosfonts.com)
+  - [The iOS Font Size Guidelines (Updated for iOS 15) – Learn UI Design](https://learnui.design/blog/ios-font-size-guidelines.html)
+  - [Color wheel - color theory and calculator | Canva Colors](https://www.canva.com/colors/color-wheel/)
+  - [Opposite Color Tool - ColorTools.net |](https://www.colortools.net/color_complementary.html)
+- Online Tools
+  - [MockUPhone](https://mockuphone.com)
+  - [App Icon Generator](https://appicon.co)
+  - [gitignore.io - Create Useful .gitignore Files For Your Project](https://www.toptal.com/developers/gitignore)
+- Learning
+  - [Design+Code - Learn to design and code React and Swift apps](https://designcode.io)
+  - [Learn SwiftUI - Kavsoft](https://kavsoft.dev)
+  - [GitHub - octoblu/gateblu-ios: Mobile gateway to manage BLE enabled devices and plugins in IOS](https://github.com/octoblu/gateblu-ios)
+- Documentation
+  - [Text macros reference - Xcode Help](https://help.apple.com/xcode/mac/current/#/dev7fe737ce0)
+  - [Customize text macros - Xcode Help](https://help.apple.com/xcode/mac/current/#/dev91a7a31fc)
+  - [Markup Formatting Reference: Markup Overview](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/)
+  - [Punctuation Checker – Free Grammar And Punctuation Check!](https://www.grammarlookup.com)
+
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> Classic (Dark)
 - Add MVVM file templates to the XCode.
