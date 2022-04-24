@@ -89,6 +89,28 @@
   ### https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys # GitHub Setup SSH Configuration
   ### https://www.udemy.com/course/git-and-github-bootcamp/learn/lecture/24911572
   ### https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token # Creating a Personal Access Token to reach private libraries via SPM
+  
+  ## Configure Xcode
+  ### Custom File Header
+  IDE_FILE_TEMPLATE=~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+  if [ ! -f "$IDE_FILE_TEMPLATE" ]; then
+  touch $IDE_FILE_TEMPLATE
+  cat >$IDE_FILE_TEMPLATE <<EOL
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+  </dict>
+  </plist>
+  EOL
+  fi
+
+  plutil -insert FILEHEADER -string " Project: ___PROJECTNAME___
+  // File: ___FILENAME___
+  // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
+  //
+  // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
+  //" $IDE_FILE_TEMPLATE
   ```
 ## System Configuration
 
@@ -102,47 +124,6 @@
 
 ## Xcode Configuration
 - Xcode -> Preferences -> Themes -> Classic (Dark)
-
-- Create custom header
-
-  Check if **IDETemplateMacros.plist** exists via Terminal
-  ```console
-  open ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
-  ```
-  if exists add below between `<dict> </dict>`
-  ```console
-  <key>FILEHEADER</key>
-  <string>
-  // Project: ___PROJECTNAME___
-  // File: ___FILENAME___
-  // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
-  //
-  // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
-  //</string>
-  ```
-  If not exists
-
-  ```console
-  touch ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
-  atom ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
-  ```
-  Then paste below inside **IDETemplateMacros.plist**
-  ```console
-  <?xml version="1.0" encoding="UTF-8"?>
-  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-  <plist version="1.0">
-  <dict>
-  <key>FILEHEADER</key>
-  <string>
-  // Project: ___PROJECTNAME___
-  // File: ___FILENAME___
-  // Copyright © ___YEAR___ Oguz Yuksel. All rights reserved.
-  //
-  // Created by Oguz Yuksel(oguz.yuuksel@gmail.com) on ___DATE___.
-  //</string>
-  </dict>
-  </plist>
-  ```
 - Add MVVM file templates to the XCode.
 
   Open terminal and try to reach below directories if any of them doesn't exist then create by using `mkdir` command.
