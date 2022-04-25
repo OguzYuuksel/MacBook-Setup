@@ -140,6 +140,7 @@
   - [Design+Code - Learn to design and code React and Swift apps](https://designcode.io)
   - [Learn SwiftUI - Kavsoft](https://kavsoft.dev)
   - [GitHub - octoblu/gateblu-ios: Mobile gateway to manage BLE enabled devices and plugins in IOS](https://github.com/octoblu/gateblu-ios)
+  - [The Auto Layout cheat sheet – Hacking with Swift](https://www.hackingwithswift.com/articles/140/the-auto-layout-cheat-sheet)
 - Documentation
   - [Text macros reference - Xcode Help](https://help.apple.com/xcode/mac/current/#/dev7fe737ce0)
   - [Customize text macros - Xcode Help](https://help.apple.com/xcode/mac/current/#/dev91a7a31fc)
