@@ -213,3 +213,4 @@
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
+ - **`:set number`** --- *activate line numbers.*
