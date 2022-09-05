@@ -224,6 +224,7 @@
  - **`r`** --- *replace character in normal mode.*
  - **`w`** --- *jump to the next word.*
  - **`b`** --- *jump to the previous word.*
+ - **`%`** --- *jump between opening and closing brackets.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
