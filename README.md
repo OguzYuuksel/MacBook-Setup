@@ -211,6 +211,8 @@
  - **`o`** --- *switch to insert mode in the new line below.*
  - **`shift+o`** --- *switch to insert mode in the new line above.*
  - **`v`** --- *switch to select mode from normal mode.*
+ - **`y`** --- *copy selected text in select mode.*
+ - **`p`** --- *paste selected text in normal mode.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
