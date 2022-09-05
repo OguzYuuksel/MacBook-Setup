@@ -215,6 +215,7 @@
  - **`v`** --- *switch to select mode from normal mode.*
  - **`d`** --- *delete selected text in select mode.*
  - **`y`** --- *copy selected text in select mode.*
+ - **`yy`** --- *copy full line text in normal mode.*
  - **`p`** --- *paste selected text in normal mode.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
