@@ -206,6 +206,7 @@
  - **`esc`** --- *switch normal mode*.
  - **`i`** --- *switch insert mode for the previous character.*
  - **`a`** --- *switch insert mode for the next character.*
+ - **`o`** --- *switch insert mode in the new line.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
