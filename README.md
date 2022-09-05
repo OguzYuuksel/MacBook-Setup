@@ -204,7 +204,8 @@
 
 ## Vim Commands
  - **`esc`** --- *switch normal mode*.
- - **`i`** --- *switch insert mode.*
+ - **`i`** --- *switch insert mode for the previous character.*
+ - **`a`** --- *switch insert mode for the next character.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
