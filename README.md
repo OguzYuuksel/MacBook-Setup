@@ -227,6 +227,9 @@
  - **`%`** --- *jump between opening and closing brackets.*
  - **`t*`** --- *jump to the position before \*.*
  - **`f*`** --- *jump to next first \* symbol.*
+ - **`shift+g`** --- *jump to last line.*
+ - **`gg`** --- *jump to first line.*
+ - **`2+shift+g`** --- *jump to 2. line.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
