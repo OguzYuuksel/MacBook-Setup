@@ -210,7 +210,10 @@
  - **`shift+a`** --- *switch to insert mode for the end of line.*
  - **`o`** --- *switch to insert mode in the new line below.*
  - **`shift+o`** --- *switch to insert mode in the new line above.*
+ - **`dd`** --- *delete all line in normal mode.*
+ - **`3 + d + ←`** --- *delete the 3 character left from the selected character.*
  - **`v`** --- *switch to select mode from normal mode.*
+ - **`d`** --- *delete selected text in select mode.*
  - **`y`** --- *copy selected text in select mode.*
  - **`p`** --- *paste selected text in normal mode.*
  - **`:q!`** --- *quit without saving.*
