@@ -164,7 +164,7 @@
   ```
   After creating File Templates directory copy MVVM directory into your *File Templates* **[MVVM Directory](MVVM/)**
 
-## Useful Commands
+## Terminal Commands
 
  - **`ls`** --- *shows contents of current directory*
 	 - **`-a`** --- *shows contents of current directory included hidden files.*
@@ -201,3 +201,6 @@
  	 - **`<oldfilename> <newfilename>`** --- *renames file*
 
  - **`q`** --- *quits when you see* `(END)`
+
+## Vim Commands
+ - **`:q!`** --- *quits without saving.
