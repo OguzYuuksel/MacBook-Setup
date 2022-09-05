@@ -225,7 +225,8 @@
  - **`w`** --- *jump to the next word.*
  - **`b`** --- *jump to the previous word.*
  - **`%`** --- *jump between opening and closing brackets.*
- - **`t*`** --- *jump to before \* symbol .*
+ - **`t*`** --- *jump to the position before \*.*
+ - **`t*`** --- *jump to \* symbol.*
  - **`:q!`** --- *quit without saving.*
  - **`:wq`** --- *quit with saving text.*
  - **`:w`** --- *save text.*
