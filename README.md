@@ -205,4 +205,6 @@
 ## Vim Commands
  - **`esc`** --- *switch normal mode*.
  - **`i`** --- *switch insert mode.*
- - **`:q!`** --- *quits without saving.*
+ - **`:q!`** --- *quit without saving.*
+ - **`:wq`** --- *quit with saving text.*
+ - **`:w`** --- *save text.*
