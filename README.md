@@ -203,6 +203,6 @@
  - **`q`** --- *quits when you see* `(END)`
 
 ## Vim Commands
- - **`⌘+esc`** --- *switch normal mode*.
+ - **`esc`** --- *switch normal mode*.
  - **`i`** --- *switch insert mode.*
  - **`:q!`** --- *quits without saving.*
