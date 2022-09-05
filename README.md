@@ -214,6 +214,7 @@
  - **`3 + d + ←`** --- *delete the 3 character left from the selected character.*
  - **`v`** --- *switch to select mode from normal mode.*
  - **`d`** --- *delete selected text in select mode.*
+ - **`c`** --- *delete selected text in select mode and switch to insert mode.*
  - **`y`** --- *copy selected text in select mode.*
  - **`yy`** --- *copy full line text in normal mode.*
  - **`p`** --- *paste selected text in normal mode.*
