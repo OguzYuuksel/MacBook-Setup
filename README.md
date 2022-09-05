@@ -214,6 +214,7 @@
  - **`3 + d + ←`** --- *delete the 3 character left from the selected character.*
  - **`dw`** --- *delete next word in normal mode.*
  - **`db`** --- *delete previous word in normal mode.*
+ - **`diw`** --- *delete current word in normal mode.*
  - **`v`** --- *switch to select mode from normal mode.*
  - **`d`** --- *delete selected text in select mode.*
  - **`c`** --- *delete selected text in select mode and switch to insert mode.*
